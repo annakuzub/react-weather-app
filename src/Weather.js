@@ -14,7 +14,7 @@ export default function Weather(props) {
       loaded: true,
       date: new Date(responce.data.dt * 1000),
       wind: responce.data.wind.speed,
-      icon: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png",
+      icon: `http://openweathermap.org/img/wn/${responce.data.weather[0].icon}@2x.png`,
       desription: responce.data.weather[0].description,
     });
   }
