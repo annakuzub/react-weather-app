@@ -1,3 +1,6 @@
+body {
+  background-image: url("https://images.pexels.com/photos/86695/sky-clouds-outdoors-scenic-86695.jpeg?auto=compress&cs=tinysrgb&w=1400");
+}
 .App {
   max-width: 600px;
   margin: 30px auto;
